@@ -1,5 +1,5 @@
 /**
- * @brief   c++版本helloworld示例
+ * @brief   基本输出函数cout使用示例
  * @author  Mculover666
  * @date    2023/2/26
  */
