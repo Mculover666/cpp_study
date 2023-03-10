@@ -5,7 +5,14 @@
  */
 
 #include <iostream>
-using namespace std;
+
+//使用方式1
+//using namespace std;
+
+//使用方式2
+using std::cout;
+using std::endl;
+
 
 int main()
 {
@@ -13,17 +20,21 @@ int main()
     double b = 3.14;
     char c[] = "str test";
 
-    bool flag = false;
-
 	cout << "Hello World!" << endl;
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
     cout << "c = [" << c << "]" << endl;
-
-    if (flag)
-        cout << "yes" << endl;
-    else
-        cout << "no" << endl;
 	
     return 0;
 }
+
+/*
+
+运行结果：
+
+Hello World!
+a = 1
+b = 3.14
+c = [str test]
+
+*/
